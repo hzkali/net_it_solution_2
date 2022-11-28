@@ -1,6 +1,6 @@
-== Netmix ==
-Version: 1.0.7
-Copyright: 2022, AncoraThemes
+== Netsol ==
+Version: 1.0.1
+Copyright: 2022, hzkali
 WordPress version: required at least 5.0, tested up to 6.0
 License: GNU General Public License v2.0 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -20,15 +20,12 @@ All available options can be used from 'Appearance->Customize' or from 'Theme Pa
 For the full realization of their capabilities, the theme requires a satellite plugin 'ThemeREX Addons'.
 Its installation is offered immediately after theme activation. You can also install it later
 from the menu 'Appearance->Install plugins'.
-Please install and activate it before starting to use the theme Netmix.
+Please install and activate it before starting to use the theme Netsol.
 
 Also the theme supports many popular plugins such as 'Elementor', 'Revolution Slider', 'WPBakery Builder', 'WooCommerce'
 and many more. They can be installed after theme activation from the menu 'Theme Panel->Theme Dashboard->Plugins'.
 
 
-III. Documentation
-
-Theme documentation is available on https://netmix.ancorathemes.com/doc/
 
 
 IV. Resources
@@ -37,7 +34,7 @@ IV. Resources
    Licensed under one of the following: (SIL Open Font License, 1.1), (Apache License, version 2.0), or (Ubuntu Font License, 1.0)
 
 2) Icons (css/font-icons/*.*)
-   The icon set used in Netmix is Fontello.
+   The icon set used in Netsol is Fontello.
    Copyright: Roman Shmelev (shmelev), Vitaly Puzrin (puzrin), Aleksey Zapparov (ixti), Evgeny Shkuropat (shkuropat), Vladimir Zapparov (dervus)
    Resource URI: http://fontello.com
    License: MIT license (http://opensource.org/licenses/MIT)
