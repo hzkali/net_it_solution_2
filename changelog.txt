@@ -1,0 +1,82 @@
+Version 1.0.8
+	Added:
+		- WP 6.0.2 compatibility
+
+	Fixed:
+    - Improve theme styles
+    - Update plugins to their latest versions
+
+  Changed:
+		- Update demo data
+
+Version 1.0.7
+	Added:
+		- WP 6.0 compatibility
+
+	Fixed:
+        - Improve theme styles
+        - Update plugins to their latest versions
+
+Version 1.0.6
+	Added:
+		- WP 5.9 compatibility
+
+	Fixed:
+		- PHP 8 compatibility
+		- Update plugins to their latest versions
+		- Fixed style for widget block
+		- Return support widget block editor; Add switcher on/off widget block editor
+
+	Changed:
+		- Update demo data
+
+Version 1.0.5
+	Added:
+		- WP 5.8 compatibility
+		- PHP 8 compatibility
+
+	Fixed:
+		- Update plugins to their latest versions
+
+	Changed:
+		- Update demo data
+
+Version 1.0.4
+    Added:
+        - WP 5.5.1 compatibility
+        - PHP 7.4 compatibility
+
+    Fixed:
+        - Update plugins to their latest versions
+
+    Changed:
+        - Update demo data
+
+Version 1.0.3
+  Added:
+    - Compatibility with ThemeREX Updater plugin
+    - Compatibility with Elegro Crypto Payment
+    - Compatibility with WP 5.4.2
+    - Compatibility with Woocommerce 4.2.0
+
+  Fixed:
+    - Update plugins to their latest versions
+    - Update scripts libraries
+    - Improve theme styles
+
+  Changed:
+    - Update demo data
+
+
+Version 1.0.2
+- ThemeREX Addons vulnerability fixed
+
+Version 1.0.1
+    Fixed:
+        - Compatible  video popup with Microsoft Edge and Internet Explorer 11
+
+    Changed:
+        - Update demo data
+
+    Plugin TRX Addons has been edited
+    plugins / trx_addons / components / cpt / layouts / shortcodes / layouts / tpl.default.php

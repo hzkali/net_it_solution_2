@@ -1,0 +1,104 @@
+/* Gutenberg
+----------------------------------------------------------------- */
+
+body.edit-post-visual-editor {
+	font-size: 14px !important;
+}
+
+body.sidebar_hide .alignfull {
+	width: 100vw;
+	max-width: none;
+	margin-left: 50%;
+	@include translateX(-50%);
+}
+body.sidebar_hide .alignwide {
+	position: relative;
+	left: calc( -44vw + 50% );
+	width: 88vw;
+	max-width: none;
+}
+.alignfull > img,
+.alignwide > img {
+	max-width: none;
+	width: 100%;
+}
+
+/* Editor area width for all post types */
+.editor-block-list__block,
+.editor-post-title__block,
+.editor-default-block-appender {
+	max-width: $content !important;
+}
+
+/* Editor area width for pages without sidebar */
+body.sidebar_position_hide.expand_content .editor-block-list__block,
+body.sidebar_position_hide.expand_content .editor-post-title__block,
+body.sidebar_position_hide.expand_content .editor-default-block-appender {
+	max-width: $page !important;
+}
+
+/* Editor area wide and fullwide blocks */
+.editor-block-list__block[data-align="wide"],
+body.sidebar_position_hide.expand_content .editor-block-list__block[data-align="wide"] {
+	max-width: 88% !important;
+}
+.editor-block-list__block[data-align="full"],
+body.sidebar_position_hide.expand_content .editor-block-list__block[data-align="full"] {
+	max-width: 100% !important;
+}
+
+/* Editor area width for custom layouts */
+body.post-type-cpt_layouts .editor-block-list__block,
+body.post-type-cpt_layouts.sidebar_position_hide.expand_content .editor-block-list__block,
+body.post-type-cpt_layouts .editor-post-title__block,
+body.post-type-cpt_layouts .editor-default-block-appender {
+	max-width: none !important;
+}
+body.single-cpt_layouts .trx-addons-layout--single-preview {
+	max-width: $page !important;
+	position: relative;
+	margin: 0 auto;	
+}
+
+.editor-post-title__block .editor-post-title__input {
+	min-height: 1em;
+}
+
+/* TinyMCE Toolbar */
+.editor-block-list__layout .mce-toolbar .mce-btn button,
+.editor-block-list__layout input[type="text"][role="button"] {
+	background-color: transparent !important;
+}
+.editor-block-list__layout .mce-toolbar .mce-btn button {
+	color: #333 !important;
+	padding: 2px 3px !important;
+}
+
+/* Sidebar holder for the editor */
+body.edit-post-visual-editor:not(.post-type-cpt_layouts):not(.sidebar_position_hide) {
+	@include flex;
+	@include flex-direction(row);
+	@include flex-justify-content(center);
+	@include flex-shrink(0);
+}
+.sidebar_position_hide .editor-post-sidebar-holder,
+body.post-type-cpt_layouts .editor-post-sidebar-holder {
+	display: none;
+}
+.editor-post-sidebar-holder {
+	width: $sidebar;
+	@include border-box;
+	background-color: #f0f0f0;
+	min-height: 75vh;
+	@include flex;
+	@include flex-align-items(center);
+	@include flex-justify-content(center);
+}
+.editor-post-sidebar-holder:before {
+	content: 'Sidebar';
+	display: inline-block;
+	@include rotate(90deg);
+	@include font(3em, 1em, bold);
+	color: #ccc;
+	text-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

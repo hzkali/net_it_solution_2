@@ -1,0 +1,42 @@
+/* Blog layout: Portfolio
+------------------------- */
+.post_layout_portfolio .post_title {
+  margin: 1em 0 0.4em;
+}
+
+.post_layout_portfolio .post_featured {
+  margin-bottom: 0;
+}
+
+.post_layout_portfolio .post_featured[class*="hover_"] {
+  display: block;
+}
+
+.post_layout_portfolio .post_featured img {
+  width: 100%;
+}
+
+.post_layout_portfolio .label_sticky {
+  top: -12px;
+  left: -12px;
+  right: auto;
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+body .post_layout_portfolio .mejs-controls .mejs-time,
+body .post_layout_portfolio .mejs-controls a.mejs-horizontal-volume-slider,
+.post_layout_portfolio .post_meta {
+  display: none !important;
+}
+
+.blog_style_portfolio_4 .page_content_wrap {
+  padding-bottom: 5.6rem;
+}
+
+.post_format_gallery.post_layout_portfolio .icons {
+  display: none;
+}
+
+/*# sourceMappingURL=portfolio.css.map */
